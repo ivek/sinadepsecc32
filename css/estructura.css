@@ -1,0 +1,296 @@
+
+.barra>li{
+	   display: inline-flex;
+	   flex-wrap: wrap;
+	margin: 0 10px 0 0;
+	text-align: center;
+	color: "red";
+	width: 100px;
+	background-color: orange;
+
+
+}
+
+/*ventana emergente*/
+#mision{
+	background-color: rgba(150, 140, 155, 0.5);
+	width: 100%;
+	height: 1200px;
+	top: 0px;
+	position: absolute;
+	text-align: center;
+	padding: 0;
+   position: absolute;
+   display: none;
+   
+}
+#cerrar{
+    text-align: center;
+    color:red;
+    float: left;
+}
+#imgs{
+    margin: 20px 100px ; 
+    width: 80%;;
+    height: 56%;;
+}
+
+
+
+
+
+/*fin de ventana emergente*/
+
+.barra{
+	width: 100%;
+	display: block;
+	border-radius: 20px;
+
+}
+#submenu >li {
+	
+	list-style-type: none;
+	margin: 1px 0px;
+	padding: 0;
+	color: white;
+	background-color: gray;
+	opacity: 0.9;
+	width: 100%;
+}
+#submenu {
+	width: 100%;
+	display: none;
+	padding: 0px;
+	
+}
+#multmenu:hover>#submenu{
+	display: block;
+	padding: 0px;
+	margin: 2px;
+	display: flex;
+	flex-flow: column wrap;
+	width: 100px;
+}
+
+section img{
+	
+	width: 75%;
+	height: 75%;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	color: #5D717E;
+	position: relative;
+	float: right;
+	
+}
+.navegar{
+	text-align:center;
+
+	
+}
+
+header{
+	width: 100%;
+	height: 32%;
+	
+}
+#bannerm{display:none;}
+#bannerd{
+         
+         width: 100%;
+}
+
+aside{
+	float: left;
+	width: 25%;
+	height: 70%;
+	border-color: orange;
+
+}
+.asdmenu:hover>ul{
+	display: block;
+	padding: 0px;
+	margin: 2px;
+	display: flex;
+	flex-flow: column wrap;
+	width: 100px;
+	position: absolute;
+}
+
+.barra > li >a{
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	background-color: black; 
+	 border-style: solid;
+    border-width: 5px;
+    color: pink;
+	cursor: pointer;
+}
+aside a{
+	text-decoration: none;
+	width: 100px;
+	height: 80px; 
+    border-width: 5px;
+    padding: 0px 40px 35px 20px;
+	cursor: pointer;
+}
+
+
+.barra li a:hover{
+	color: white;
+
+}
+#multmenu:hover>#submenu a{
+            color:white;
+            text-decoration: none;
+            width: 100%;
+}
+.barra li:hover{
+	background-color: red;
+}
+.menu li{
+	background-color: orange;
+	list-style-type: none;
+	margin: 10px 0px 0px 0px;
+	height: 80px;
+	font-family: ARIAL;
+	font-size: 30px;
+	text-align: center;
+	padding: 0px;
+	border-radius: 20px 0px 20px 0px;
+
+}
+.menu .asdmenu li{
+	font-size: 25px;
+	color: red;
+	background-color: gray;
+	opacity: 0.9;
+}
+aside li{
+	width: 200px;
+	height: 80px;
+	margin: 1px;
+	padding: 0px;
+}
+.menu  ul{
+	display: none;
+
+
+}
+
+.menu:hover > ul{
+	display: block;
+
+}
+
+aside a:hover{
+	
+	color: yellow;
+}
+aside li:hover{
+	background-color: darkgray;
+}
+footer{
+	clear: both;
+        height:450;
+}
+footer li{
+	list-style-type: none;
+	display: inline-block;
+	width: 25%;
+}
+footer {
+	background-color: #FFF8DC;
+}
+footer figure {
+	color: 	#1E90FF;
+	float: right;
+}
+
+@media (max-width: 800px){
+	section img{
+		display: none;
+	}
+
+	#bannerd{
+	           display: none;
+		     
+
+		}
+        #bannerm{
+			 
+		     display:block;
+                     float:left;
+		     width: 100%;
+                     height: 100%;
+		    
+
+		}
+		nav li{
+			   margin-left: 2em;
+			   width: 200px;
+			   height: 35px;
+			   font-size: 20px;
+		}
+		
+	.menu li{
+		width: 100%;
+		height: 55px;
+		font-size: 30px;
+		margin: 1px 2px 2px 1px;
+
+		
+		
+	}
+	.menu ul li{
+		width: 100%;
+		height: 70px;
+		margin: 1px 2px;
+
+
+		
+	}
+	.menu  .asdmenu >ul {
+		width: 100%;
+		margin: 1px;
+		padding: 0px;
+	}
+	.menu {
+		padding-left: 0;
+	}
+	aside {
+		width: 100%;
+
+	}
+	.navegar ul {
+				display: block;
+ 				text-align: left;
+ 				padding-left: 0;
+
+ 				
+	}
+	aside a{		
+			text-decoration: none;
+			width: 100px;
+			height: 80px; 
+		    border-width: 5px;
+		    padding: 0px 110px 20px 100px;
+			cursor: pointer;
+		}
+	.navegar li{
+		        width: 28%;  
+				margin: 1px 1px;
+		 	    font-size: 20px;
+	}
+
+	}
+
+
+.menu:hover > ul{
+	display: inline-block;
+
+}
+footer{
+	   width: 100%;
+           Height: auto;
+}

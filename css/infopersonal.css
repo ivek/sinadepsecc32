@@ -1,0 +1,53 @@
+* {
+font-family:sans-serif;
+list-style:none;
+text-decoration:none;
+margin:0;
+padding:0;
+}
+
+
+#bannerd{
+		width: 100%;
+}
+.navegar{
+
+	text-align: center;
+}
+.barra li{
+		display: inline-block;
+		color: white;
+		width: 15%;
+		height: 1.5em;
+		font-size: 2.5em;
+	background-color: #686868 ;
+}
+.barra li:hover{
+		color: white;
+		padding: 0;
+		margin: 1px;
+		width: 15%;
+	background-color: #989898 ;
+}
+#bannerm{
+	display: none;
+}
+ 
+
+@media(max-width: 800px){
+
+	#bannerd{
+		display: none;
+	}
+	#bannerm{
+		display: block;
+	}
+
+	.barra li{
+				width: 10%;
+				height: 0.5em;
+				font-size: 0.5em;
+				color: red;
+
+	}
+}
