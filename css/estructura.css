@@ -131,6 +131,8 @@ aside a{
 	width: 100px;
 	height: 80px; 
     border-width: 5px;
+    margin: 0px;
+    border-radius: 0px 5px; 
     padding: 0px 40px 35px 20px;
 	cursor: pointer;
 }
@@ -157,14 +159,35 @@ aside a{
 	font-size: 30px;
 	text-align: center;
 	padding: 0px;
+     
 	border-radius: 20px 0px 20px 0px;
 
 }
-.menu .asdmenu li{
-	font-size: 25px;
-	color: red;
-	background-color: gray;
+
+.menu .asdmenu li a{
+    
+	font-size: 22px;
+    width: 100%;
+    height: 80px;
+    border-radius: 20px 0px 20px 0px;
+	color: white;
+	background-color: orange;
+    margin: 1px;
+    border: 1px;
+    border-color: blue;
+    text-decoration: none;
+    word-break: border: 100% border-style red;
+    
+   
 	opacity: 0.9;
+}
+.menu .asdmenu li{
+    width: 301px;
+    margin: 0px;
+    padding: 0px;
+}
+.menu .asdmenu li a:hover{
+    background-color: darkgray;
 }
 aside li{
 	width: 200px;
@@ -208,6 +231,38 @@ footer figure {
 }
 
 @media (max-width: 800px){
+    
+.container{
+    
+    padding: 0px;
+    width: 100%;
+   opacity: 1;
+    margin: 260px 0px 0px 0px;
+    
+    
+    
+}
+.container nav li{
+    
+    padding: 0px;
+    width: 100%;
+    background-color: black;
+    border: 4px solid white;
+    margin: 1px;
+    
+    
+}
+.container nav li:hover{
+    
+    padding: 0px;
+    width: 100%;
+    border: 4px solid yellow;
+    margin: 1px;
+    cursor: pointer;
+    
+    
+}
+    
 	section img{
 		display: none;
 	}
@@ -228,12 +283,22 @@ footer figure {
 		}
 		nav li{
 			   margin-left: 2em;
-			   width: 200px;
-			   height: 35px;
+			   width: 180px; 
 			   font-size: 20px;
+              
 		}
+        
 		
-	.menu li{
+	.menu li {
+		width: 100%;
+		height: 55px;
+		font-size: 30px;
+		margin: 1px 2px 2px 1px;
+
+		
+		
+	}
+    .menu li a {
 		width: 100%;
 		height: 55px;
 		font-size: 30px;
