@@ -28,6 +28,7 @@
     text-align: center;
     color:red;
     float: left;
+    cursor: pointer;
 }
 #imgs{
     margin: 20px 100px ; 

@@ -1587,7 +1587,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  opacity: 5px;
+
 }
 @media (min-width: 768px) {
   .container {
@@ -3545,6 +3545,7 @@ tbody.collapse.in {
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
           box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  cursor: pointer;
 }
 .dropdown-menu.pull-right {
   right: 0;
