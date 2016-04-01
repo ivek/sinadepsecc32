@@ -236,6 +236,7 @@ footer figure {
     
     padding: 1px 0px 0px 0px;
     width: 100%;
+
     margin: 0px 0px 0px 0px;
     
     
@@ -261,9 +262,14 @@ footer figure {
     
 }
     
-	section img{
+	section #port2{
 		display: none;
 	}
+    #imgs{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
 
 	#bannerd{
 	           display: none;
