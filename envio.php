@@ -100,8 +100,9 @@
    <div id="map">
        <h2>¿No sabes como llegar desde la direccion donde te encuentras? <br><mark>No te preocupes, nosotros trazamos tu ruta</mark></h2>
        <a class ="boton" href="map_sinadep.html" class="btn btn-primary btn-large">Da clic</a><br>
+        </div>
         <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d939.9703549091132!2d-96.92593306303026!3d19.546703858539477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x6c314bab939dc201!2sSindicato+Nacional+de+Trabajadores+de+la+Educaci%C3%B3n+Secci%C3%B3n+32!5e0!3m2!1ses-419!2smx!4v1456455632374" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
+ 
   </div>
   </section>
   <footer>

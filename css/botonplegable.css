@@ -36,10 +36,14 @@ ul{
 }
 .boton{
     background-color: orange;
-    text-decoration: none;
+    -webkit-text-decoration: none;
+    -webkit-text-decoration: none;
+     text-decoration: none;
     font-size: 2em;
     color: white;
     border-radius: 0px 20px 0px 20px;
+    -webkit-border-radius: 0px 20px 0px 20px;
+    -moz-border-radius: 0px 20px 0px 20px;
     width: 150px;    
     margin: 2px;
     padding: 3px;
@@ -106,8 +110,8 @@ footer{
 #dir{
 	float: right;
 }
-#nap{
-	float: right;
+#map{
+	float: left;
 
 }
 mark { 
@@ -136,5 +140,11 @@ mark {
               width:100%;
             
         }
+       #map{
+        flex-wrap: wrap;
+}
+        iframe{
+             width: 90%;
+}        
 }	
 	
