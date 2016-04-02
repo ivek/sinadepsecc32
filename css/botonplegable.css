@@ -34,6 +34,21 @@ ul{
 	color: black;
 	font-size: 0.5em
 }
+.boton{
+    background-color: orange;
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    border-radius: 0px 20px 0px 20px;
+    width: 150px;    
+    margin: 2px;
+    padding: 3px;
+}
+.boton:hover{
+    background-color:gray;
+    border:5px solid lightyellow;
+    
+}
  li a{
 	color: white;
 	background: gray;
@@ -95,12 +110,31 @@ footer{
 	float: right;
 
 }
-
-@media (max-width: 800px){
-
-	header img{
+mark { 
+    background-color: yellow;
+    color: black;
+}
+ #headp{
+              display:block;
+              width:100%;
+            
+        }
+#headm{
 		display: none;
 	}
 
+
+
+@media (max-width: 800px){
+
+	#headp{
+		display: none;
+	}
+
+        #headm{
+              display:block;
+              width:100%;
+            
+        }
 }	
 	
